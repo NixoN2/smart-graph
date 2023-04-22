@@ -1,0 +1,1 @@
+export const shouldIncludeLocation = true

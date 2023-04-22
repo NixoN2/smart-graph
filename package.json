@@ -1,0 +1,27 @@
+{
+  "name": "solidity-vulnerabilities",
+  "version": "1.0.0",
+  "description": "Static analysis of solidity code with graphs",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "start_without_build": "node dist/index.js"
+  },
+  "keywords": [
+    "solidity",
+    "vulnerabilities"
+  ],
+  "author": "Andrei Zhukov<andrewzhukovweb@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@solidity-parser/parser": "^0.16.0",
+    "graphlib": "^2.1.8",
+    "graphlib-dot": "^0.6.4",
+    "solcheck": "^0.1.3",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.4"
+  }
+}
